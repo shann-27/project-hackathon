@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.funds-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.fund-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    width: 280px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.fund-card:hover {
+    transform: translateY(-5px);
+}
+
+.fund-stats {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.fund-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.know-more {
+    background-color: #666;
+    color: #ffffff;
+}
+
+.know-more:hover {
+    background-color: #888;
+}
+
+.invest-now {
+    background-color: #1db954;
+    color: #ffffff;
+}
+
+.invest-now:hover {
+    background-color: #17a745;
+}

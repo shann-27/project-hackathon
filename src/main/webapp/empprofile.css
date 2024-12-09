@@ -1,0 +1,58 @@
+
+@charset "UTF-8";
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+}
+
+h3 {
+    color: #1db954; /* Highlighted green color */
+    margin-top: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div {
+    max-width: 600px;
+    margin: 0 auto; /* Center-align the profile content */
+    background-color: #2e2e2e; /* Slightly lighter background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+/* Styling for Profile Labels and Values */
+div b {
+    color: #1db954; /* Highlighted text color */
+    font-size: 16px;
+}
+
+div span {
+    color: #ffffff; /* Ensure values contrast with the labels */
+    font-weight: normal;
+}
+
+/* Add some spacing for readability */
+div br {
+    margin-bottom: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    div {
+        width: 90%; /* Adjust the container size for smaller screens */
+    }
+
+    h3 {
+        font-size: 20px; /* Adjust header size for smaller screens */
+    }
+
+    div b {
+        font-size: 14px; /* Adjust text size for readability */
+    }
+}

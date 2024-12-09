@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure navbar stays above other content */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/02/full/1717342538-6423.jpg?im=FeatureCrop,size=(826,465)');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    background-color: #337ab7;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #23527c;
+}
+
+/* Information Section Styles */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.info-box {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.info-box h3 {
+    font-size: 22px;
+    color: #333;
+}
+
+.info-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contact Us Section Styles */
+.contact-us-section {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-container h2 {
+    color: #00ccff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-details h3 {
+    margin-top: 20px;
+    color: #00ccff;
+}
+
+.contact-details p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.contact-details a {
+    color: #00ccff;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
